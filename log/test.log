@@ -23,6 +23,7 @@ Processing by SongsController#index as HTML
 Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.4ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+<<<<<<< HEAD
   [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35mSQL (0.2ms)[0m  DELETE FROM "songs" WHERE "songs"."id" = ?  [["id", 5]]
@@ -7528,3 +7529,5 @@ Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
   [1m[36mSong Load (0.1ms)[0m  [1mSELECT  "songs".* FROM "songs"  ORDER BY "songs"."id" ASC LIMIT 1[0m
   Rendered songs/show.html.erb (1.2ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> 685771a39718118e870261d3e010276ad4e8db1c
